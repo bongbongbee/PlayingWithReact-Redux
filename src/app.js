@@ -7,6 +7,7 @@ import { Header } from './components/common';
 import LibraryList from './components/LibraryList';
 
 const App = () => (
+    // facilitate communication between react and redux
     <Provider store={createStore(reducers)}>
         <View style={{ flex: 1 }}>
             {platformSpecificSetup()}

@@ -11,6 +11,7 @@ import * as actions from '../actions';
 
 class ListItem extends Component {
     componentWillUpdate() {
+        /* calling it before component update/re-render */
         LayoutAnimation.spring();
     }
     renderDescription() {
